@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+  <meta name="theme-color" content="#000000" />
+  <title>DC - UFSCar</title>
+  <link href="styles/site-min-1.css" rel="stylesheet" />
+  <link href="styles/site-min-2.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="root">
+    <header class="fixed-top">
+      <nav id="menu" class="navbar navbar-expand-md navbar-light bg-white border-bottom">
+        <div class="container">
+          <a id="logo" class="navbar-brand d-flex flex-row" href="#">
+            <img class="d-inline-block align-self-center mr-3" src="images/svg/logotipo-dc-ufscar.svg" width="75" height="52.5" alt="Logo do departamento de computação" />
+            <div class="d-none d-lg-inline-block" style="line-height: 11px">
+              <h4>Departamento de Computação</h4>
+              <small style="font-size: 16px">Universidade Federal de São Carlos</small>
+            </div>
+          </a>
+          <button class="navbar-toggler ml-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown text-center">
+                <button class="nav-link ml-2 d-flex d-sm-block py-3 py-sm-0 align-items-center" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="images/svg/graduation-cap-gray.svg" class="svg-inline--fa fa-graduation-cap fa-w-20 d-inline-block" alt="Icon Graduation Cap" title="Ensino" />
+                  <div class="pl-3 pl-sm-0"><small>Ensino</small></div>
+                </button>
+              </li>
+              <li class="nav-item dropdown text-center">
+                <button class="nav-link ml-2 d-flex d-sm-block py-3 py-sm-0 align-items-center" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="images/svg/book-gray.svg" class="svg-inline--fa fa-book fa-w-14 d-inline-block" alt="Icon Book" title="Pesquisa" />
+                  <div class="pl-3 pl-sm-0"><small>Pesquisa</small></div>
+                </button>
+              </li>
+              <li class="nav-item dropdown text-center">
+                <button class="nav-link ml-2 d-flex d-sm-block py-3 py-sm-0 align-items-center" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="images/svg/home-gray.svg" class="svg-inline--fa fa-home fa-w-18 d-inline-block" alt="Icon Home" title="Extensão" />
+                  <div class="pl-3 pl-sm-0"><small>Extensão</small></div>
+                </button>
+              </li>
+              <li class="nav-item dropdown text-center">
+                <button class="nav-link ml-2 d-flex d-sm-block py-3 py-sm-0 align-items-center" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="images/svg/user-gray.svg" alt="Icon User" title="Pessoas" class="svg-inline--fa fa-user fa-w-14 d-inline-block" />
+                  <div class="pl-3 pl-sm-0"><small>Pessoas</small></div>
+                </button>
+              </li>
+              <li class="nav-item text-center">
+                <a href="https://site.dc.ufscar.br/institucional" tabindex="-1">
+                  <button class="nav-link ml-2 d-flex d-sm-block py-3 py-sm-0 align-items-center pointer" aria-haspopup="true" aria-expanded="false" data-toggle="dropdown">
+                    <img src="images/svg/university-gray.svg" alt="Icon University" title="Institucional" class="svg-inline--fa fa-university fa-w-16 d-inline-block" />
+                    <div class="pl-3 pl-sm-0"><small>Institucional</small></div>
+                  </button>
+                </a>
+              </li>
+              <li class="nav-item dropdown text-center">
+                <button class="nav-link ml-2 d-flex d-sm-block py-3 py-sm-0 align-items-center" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="images/svg/wrench-gray.svg" alt="Icon Wrench" title="Suporte" class="svg-inline--fa fa-wrench fa-w-16 d-inline-block" />
+                  <div class="pl-3 pl-sm-0"><small>Suporte</small></div>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main role="main" class="container">
+      <div class="row mb-4 mt-4 rounded bg-primary sm-hide">
+        <div class="col-9 p-0">
+          <div id="carrossel" class="carousel slide carousel-fade d-none d-md-block banner" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="w-100 banner rounded-left" src="images/jpg/banner-principal.jpg" />
+                <div class="carrossel-legenda p-0">
+                  <p class="pl-4 pt-2 mb-1">
+                    <br /><small>Fotografia: Guilherme Rabello</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only"></span>
+            </a>
+            <a class="carousel-control-next" href="#" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only"></span>
+            </a>
+          </div>
+        </div>
+        <div class="col-3 p-0">
+          <a class="text-decoration-none" href="#">
+            <div class="botao-item text-white pl-4 undefined">
+              <h4>
+                <img src="images/svg/user-graduate-white.svg" alt="Icon User Graduate" title="Área do aluno" class="svg-inline--fa fa-user-graduate fa-w-14 d-inline-block mr-3" />
+                Área do Aluno
+              </h4>
+            </div>
+          </a><a class="text-decoration-none" href="#">
+            <div class="botao-item text-white pl-4 border-top border-bottom">
+              <h4>
+                <img src="images/svg/chalkboard-teacher-white.svg" alt="Icon Chalkboard Teacher" title="Área do docente" class="svg-inline--fa fa-chalkboard-teacher fa-w-20 d-inline-block mr-3" />
+                Área do Docente
+              </h4>
+            </div>
+          </a><a class="text-decoration-none" href="#">
+            <div class="botao-item text-white pl-4 undefined">
+              <h4>
+                <img src="images/svg/user-white.svg" alt="Icon User" title="Área do visitante" class="svg-inline--fa fa-user fa-w-14 d-inline-block mr-4" />
+                Área do Visitante
+              </h4>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="mb-4 mt-4 rounded bg-primary sm-show">
+        <a class="text-decoration-none" href="#">
+          <div class="botao-item text-white pl-4 undefined">
+            <h4>
+              <img src="images/svg/user-graduate-white.svg" alt="Icon User Graduate" title="Área do aluno" class="svg-inline--fa fa-user-graduate fa-w-14 d-inline-block mr-3" />
+              Área do Aluno
+            </h4>
+          </div>
+        </a><a class="text-decoration-none" href="#">
+          <div class="botao-item text-white pl-4 border-top border-bottom">
+            <h4>
+              <img src="images/svg/chalkboard-teacher-white.svg" alt="Icon Chalkboard Teacher" title="Área do docente" class="svg-inline--fa fa-chalkboard-teacher fa-w-20 d-inline-block mr-3" />
+              Área do Docente
+            </h4>
+          </div>
+        </a><a class="text-decoration-none" href="#">
+          <div class="botao-item text-white pl-4 undefined">
+            <h4>
+              <img src="images/svg/user-white.svg" alt="Icon User" title="Área do visitante" class="svg-inline--fa fa-user fa-w-14 d-inline-block mr-4" />
+              Área do Visitante
+            </h4>
+          </div>
+        </a>
+      </div>
+      <div class="row inicio" id="conteudo">
+        <div class="col-12 col-md-8">
+          <div class="d-flex justify-content-between mb-3">
+            <h4>Notícias</h4>
+            <a class="btn btn-link" href="#">Ver todas as notícias
+              <img src="images/svg/plus.svg" alt="Icon plus" title="Ver mais notícias" class="svg-inline--fa fa-plus fa-w-14 ml-2" />
+            </a>
+          </div>
+          <div class="css-rtde4j row">
+            <div class="css-1sdsz61 col-6 card hoverable">
+              <div class="undefined">
+                <div>
+                  <img class="card-img-top fit-image-noticia" src="images/jpg/img-noticia.jpg" alt="imagem notícia" />
+                </div>
+              </div>
+              <div class="card-body d-flex flex-row">
+                <a href="#">
+                  <div class="card-title"><strong>DC receberá a visita de Alexandre Chohfi, Engenheiro Senior de Software na Microsoft</strong></div>
+                  <div class="card-text max-lines">Palestra ocorrerá no dia 20/10/2023, às 14h, no Auditório do DC</div>
+                </a>
+              </div>
+              <div class="card-footer bg-white">
+                <small>Postado em: terça-feira, 17/10/2023</small>
+              </div>
+            </div>
+            <div class="css-1sdsz61 col-6 card hoverable">
+              <div class="undefined">
+                <div>
+                  <img class="card-img-top fit-image-noticia"
+                    src="images/jpg/img-noticia.jpg" alt="imagem notícia" />
+                </div>
+              </div>
+              <div class="card-body d-flex flex-row">
+                <a href="#">
+                  <div class="card-title">
+                    <strong>DC abre vaga para seleção de professor substituto</strong>
+                  </div>
+                  <div class="card-text max-lines">
+                    As inscrições serão realizadas via internet no período de 09/10/2023 à 27/10/2023.
+                  </div>
+                </a>
+              </div>
+              <div class="card-footer bg-white">
+                <small>Postado em: segunda-feira, 16/10/2023</small>
+              </div>
+            </div>
+            <div class="css-1sdsz61 col-6 card hoverable">
+              <div class="undefined">
+                <div>
+                  <img class="card-img-top fit-image-noticia"
+                    src="images/jpg/banner-principal.jpg" alt="imagem notícia" />
+                </div>
+              </div>
+              <div class="card-body d-flex flex-row">
+                <a href="#">
+                  <div class="card-title">
+                    <strong>PPGCC seleciona pesquisador de pós-doutorado com bolsa CAPES</strong>
+                  </div>
+                  <div class="card-text max-lines">
+                    Os candidatos poderão se inscrever até o dia 31 de outubro de 2023.
+                  </div>
+                </a>
+              </div>
+              <div class="card-footer bg-white">
+                <small>Postado em: quarta-feira, 11/10/2023</small>
+              </div>
+            </div>
+            <div class="css-1sdsz61 col-6 card hoverable">
+              <div class="undefined">
+                <div>
+                  <img class="card-img-top fit-image-noticia"
+                    src="images/jpg/img-noticia.jpg" alt="imagem notícia" />
+                </div>
+              </div>
+              <div class="card-body d-flex flex-row">
+                <a href="#">
+                  <div class="card-title">
+                    <strong>Inscrições abertas para o Processo Seletivo para Seleção de Monitores 2023/2 no DC</strong>
+                  </div>
+                  <div class="card-text max-lines">
+                    Período de inscrição é de 03/10/2023 a 06/10/2023
+                  </div>
+                </a>
+              </div>
+              <div class="card-footer bg-white">
+                <small>Postado em: terça-feira, 03/10/2023</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 pl-3 border-left">
+          <div class="pt-5 pt-md-0">
+            <div class="d-flex justify-content-between mb-3">
+              <h4>Eventos</h4>
+            </div>
+            <div class="d-flex flex-row align-items-start border-bottom" style="text-decoration: none">
+              <div class="p-2">
+                <div>
+                  <h3 class="font-weight-bold text-primary mb-0">11/10</h3>
+                </div>
+                <h3 class="text-secondary font-weight-light mb-0">14:00</h3>
+              </div>
+              <div class="p-2 align-self-center text-primary ml-2">
+                <h5>Seminário: Foco e Expertise</h5>
+                <p class="my-0">Auditório do DC</p>
+              </div>
+            </div>
+            <div class="d-flex flex-row align-items-start border-bottom" style="text-decoration: none">
+              <div class="p-2">
+                <div>
+                  <h3 class="font-weight-bold text-primary mb-0">04/10</h3>
+                </div>
+                <h3 class="text-secondary font-weight-light mb-0">14:00</h3>
+              </div>
+              <div class="p-2 align-self-center text-primary ml-2">
+                <h5>Seminário: Tecnologia Assistiva Vestível</h5>
+                <p class="my-0">Auditório do DC</p>
+              </div>
+            </div>
+            <div class="d-flex flex-row align-items-start border-bottom" style="text-decoration: none">
+              <div class="p-2">
+                <div>
+                  <h3 class="font-weight-bold text-primary mb-0">22/03</h3>
+                </div>
+                <h3 class="text-secondary font-weight-light mb-0">14:00</h3>
+              </div>
+              <div class="p-2 align-self-center text-primary ml-2">
+                <h5>Seminário: Computação: Origens e Contribuições</h5>
+                <p class="my-0">Auditório do DC</p>
+              </div>
+            </div>
+            <div class="d-flex flex-row align-items-start border-bottom" style="text-decoration: none">
+              <div class="p-2">
+                <div>
+                  <h3 class="font-weight-bold text-primary mb-0">15/03</h3>
+                </div>
+                <h3 class="text-secondary font-weight-light mb-0">14:00</h3>
+              </div>
+              <div class="p-2 align-self-center text-primary ml-2">
+                <h5>Seminário: Os dados falam por si</h5>
+                <p class="my-0">Auditório do DC</p>
+              </div>
+            </div>
+            <div class="d-flex flex-row align-items-start border-bottom" style="text-decoration: none">
+              <div class="p-2">
+                <div>
+                  <h3 class="font-weight-bold text-primary mb-0">08/03</h3>
+                </div>
+                <h3 class="text-secondary font-weight-light mb-0">14:00</h3>
+              </div>
+              <div class="p-2 align-self-center text-primary ml-2">
+                <h5>Seminário: Impressão 3D de Bio Materiais Poliméricos</h5>
+                <p class="my-0">Auditório do DC</p>
+              </div>
+            </div>
+          </div>
+          <div class="pt-5 pt-md-4">
+            <h4 class="mb-3">Links rápidos</h4>
+            <div class="d-flex flex-wrap">
+              <a class="links-rapidos p-2 hoverable rounded border mr-2 mb-2" href="#" >
+                <div title="Moodle DC" style="display: inline">
+                  <div>
+                    <img class="img-fluid" src="images/jpg/logo-link-btn-ufscar.jpg" alt="Moodle DC" style="height: 50px" />
+                  </div>
+                </div>
+              </a>
+              <a class="links-rapidos p-2 hoverable rounded border mr-2 mb-2" href="#" >
+                <div title="SIGA" style="display: inline">
+                  <div>
+                    <img class="img-fluid" src="images/jpg/logo-link-btn-ufscar.jpg" alt="SIGA" style="height: 50px" />
+                  </div>
+                </div>
+              </a>
+              <a class="links-rapidos p-2 hoverable rounded border mr-2 mb-2" href="#" >
+                <div title="Cardápio RU" style="display: inline">
+                  <div>
+                    <img class="img-fluid" src="images/jpg/logo-link-btn-ufscar.jpg" alt="Cardápio RU" style="height: 50px" />
+                  </div>
+                </div>
+              </a>
+              <a class="links-rapidos p-2 hoverable rounded border mr-2 mb-2" href="#" >
+                <div title="Ambiente Virtual de Aprendizagem" style="display: inline">
+                  <div>
+                    <img class="img-fluid" src="images/jpg/logo-link-btn-ufscar.jpg" alt="Ambiente Virtual de Aprendizagem" style="height: 50px" />
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer id="rodape" class="footer mt-5">
+      <div class="container py-5 text-dark text-center text-md-left">
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <h6 class="text-uppercase font-weight-bold">
+              Departamento de Computação <small>UFSCar</small>
+            </h6>
+            <hr class="mb-2 mt-0" />
+            <div class="list-unstyled">
+              <p>Universidade Federal de São Carlos</p>
+              <p>Rod. Washington Luís, km 235 - Jardim Guanabara</p>
+              <p>Caixa Postal 676</p>
+              <p>CEP: 13565-905 - São Carlos/SP</p>
+              <p>E-mail: dc@ufscar.br</p>
+              <p>Telefone: +55 16 3351-8232</p>
+              <p>Fax: +55 16 3351-8233</p>
+              <p>Contato: <a href="#">clique aqui</a></p>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <iframe title="Iframe do Google Maps" height="220px" width="100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3699.8238490302215!2d-47.88273818439348!3d-21.979722710974197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b8711e42fdad05%3A0x6a0cd2ccbce13d28!2sDepartamento+de+Computa%C3%A7%C3%A3o%2C+Universidade+Federal+de+S%C3%A3o+Carlos!5e0!3m2!1sen!2sus!4v1480425559308" frameborder="0"></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright py-2 text-light text-center">
+        © 2018 Departamento de Computação - UFSCar. Todos os direitos reservados.<br />
+
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
